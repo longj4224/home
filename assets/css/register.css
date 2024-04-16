@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.header img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 470px;
+    height: 1150px;
+    background: white;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.form-header {
+    padding-bottom: 1.5rem;
+}
+
+.form-header h1 {
+    font-size: 26px;
+    text-transform: none;
+    color: #2e3f51;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info p {
+    text-align: start;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name label {
+    color: rgb(46, 63, 81);
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.fl-name {
+    width: 185px;
+    padding: .75rem;
+    border: 2px solid rgb(148, 148, 148);
+    border-width: 2px;
+    border-radius: .375rem;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+    font-weight: 50;
+    color: #949494;
+}
+
+.fl-name:focus-visible {
+    border: 3px solid rgb(37, 99, 235);
+}
+
+.input-box {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.input-box-label {
+    color: rgb(46, 63, 81);
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem; 
+}
+
+.input-1 {
+    padding: .75rem;
+    border: 2px solid rgb(148, 148, 148);
+    border-radius: .375rem;
+    width: 100%;
+    height: 52px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-2 {
+    padding: .75rem;
+    border: 2px solid rgb(148, 148, 148);
+    border-radius: .375rem;
+    width: 100%;
+    height: 52px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upload {
+    padding: .5rem;
+    border: 2px dashed rgb(75, 85, 99);
+    width: 100%;
+    height: 88px;
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.upload-label {
+    color: rgb(55, 65, 81);
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.id-card-upload {
+    display: none;
+}
+
+.upload-file-btn {
+    cursor: pointer;
+    color: rgb(107, 114, 128);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.upload i, h4, label {
+    margin: .25rem 0;
+}
+
+.upload h4 {
+    font-weight: 600;
+    color: rgb(46, 63, 81);
+}
+
+.terms {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.terms input {
+    padding: 1rem;
+}
+
+.terms label {
+    margin-left: .5rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(46 63 81);
+}
+
+.terms label a {
+    color: rgb(37, 99, 235);
+}
+
+.submit {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.submit-button {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: .75rem;
+    background: rgb(37, 99, 235);
+    border-radius: .375rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 48px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.submit-button:hover {
+    background: rgb(53, 110, 234);
+}
+
+.liscence span {
+    color: rgb(146 64 14);
+}

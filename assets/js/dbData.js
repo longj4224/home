@@ -1,0 +1,3 @@
+// Initialize Supabase client
+export const domain = 'https://gzfvrprnvcpegkutodgd.supabase.co';
+export const anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd6ZnZycHJudmNwZWdrdXRvZGdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTIyMjQ4ODksImV4cCI6MjAyNzgwMDg4OX0.riMoeWUsT5pDsZtJkT0lUJaileMRA6UipmCgBphbtJ0';

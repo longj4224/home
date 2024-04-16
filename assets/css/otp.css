@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background: white;
+    height: 135px;
+}
+.header img {
+    width: 100px;
+    height: 41px;
+    margin-top: 20px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+    bottom: 81px;
+    width: 475px;
+    height: 643.90px;
+    background: white;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.form-header h1 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #2e3f51;
+    margin: 0 0 25px 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1.4117647059;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.email-img {
+    display: flex;
+    justify-content: center;
+}
+
+.email-img img {
+    width: 395px;
+    height: 39px;
+    margin-bottom: 25px;
+}
+
+.newID {
+    background: #f2faff;
+    padding: 35px 0;
+    text-align: center;
+    margin: 0 -40px 20px -40px;
+}
+
+.newID p {
+    font-size: 15px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #2e3f51;
+    line-height: normal;
+}
+
+.form-fields {
+    margin-bottom: 25px;
+}
+
+.form-input h2 {
+    color: #2e3f51;
+    font-size: 19px;
+    font-weight:400;
+    letter-spacing: normal;
+    line-height: 1.4;
+    margin: 8px 0 20px 0;
+    text-align: center;
+    text-transform: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.separator{
+    font-size: 14px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 0 15px 0;
+    position: relative;
+    z-index: 1;
+}
+.separator::before {
+    border-top: 1px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 60%;
+}
+
+.token {
+    padding: 10px 40px 0 40px;
+    margin: 0 -40px 20px -40px;
+}
+
+.otp-code label {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2e3f51;
+}
+
+.otp-code input {
+    width: 100%;
+    height: 51px;
+    font-size: 23px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #949494;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.confirm {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.submit-button {
+    border: 2px solid #949494;
+    background-size: 50px 50px;
+    transition: 0.5s all;
+    border-radius: 5px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 15px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.stop-button {
+    cursor: not-allowed;
+}
+
+.go-button {
+    border: 2px solid #2e3f51;
+    color: #266aca;
+    cursor: pointer;
+}
+
+.go-button:hover {
+    background:#ebf3ff;
+}
+
+.success-button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.success-button:hover {
+    background-color: #45a049;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #2e3f51;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+input::placeholder {
+    font-weight: 50;
+}
+
+.input-labels {
+    color: #2e3f51;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-fields {
+    color: #2e3f51;
+    background: #ffffff;
+    width: 395px;
+    height: 54px;
+    border-radius: 5px;
+    border: 2px solid #949494;
+    margin-top: 5px;
+    padding: 15px;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.remember {
+    padding: 5px 0;
+    color: #2e3f51;
+    z-index: 5;
+    display: flex;
+}
+.remember span {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.remember div {
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkbox {
+    border: 0;
+    height: 15px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 0;
+    width: 15px;
+    cursor: pointer;
+    transition: 0.5s all;
+    outline: none;
+}
+
+.checkbox:hover {
+    transform: scale(1.1);
+    color: #2e3f51;
+}
+
+.form-actions {
+    padding-top: 20px;
+}
+
+.form-actions button {
+    background: #266aca;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 0 auto;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: 0.5s all;
+    border-radius: 5px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.form-actions button:hover {
+    background: #2260b8;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.form-footer a {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    color: #266aca;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.form-footer a:hover {
+    text-decoration: none;
+}
+
+.footer {
+   padding: 30px 0;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list-item {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    padding: 0 12px;
+    list-style: none;
+}
+
+.footer-list-item a {
+    font-size: 13px;
+    color: #266aca;
+    cursor: pointer;
+}
+
+.footer-list-item a:hover {
+   text-decoration: none;
+}
+
+.line {
+    display: flex;
+    font-size: 13px;
+    font-weight: normal;
+    align-items: center;
+}
+
+
+
